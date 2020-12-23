@@ -1,0 +1,13 @@
+Image No.
+1 - Welcome message
+2 - Password being entered
+3 - Access Granted
+4 - Showing Cound Down for Relocking
+5 - Message for Relocked
+6 - Message for Locked
+7 - The first look for the Mobile App
+8 - The "DOOR LOCK" command being processed
+9 - The Door being opened
+10 - The "DOOR CLOSED" command being processed
+11 - The Door being closed
+12 - The Pin Connection Table
