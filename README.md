@@ -9,12 +9,4 @@ This system demonstrates a Password based Door Lock System using Arduino UNO, wh
 
 If the entered password is correct, then the system opens the door by rotating door motor and displays the status of door on LCD. If the password is wrong, then the door is remains closed and displays “Password is wrong” on LCD. Components Required Hardware Requirements Arduino UNO, 4×4 Matrix Keypad, 16×2 LCD, Servo Motor, 10KΩ Potentiometer, Connecting wires and Power Supply.
 
-How to Design Circuit of Password based Door Lock System? Password based door lock system using Arduino UNO circuit design uses five major components – an Arduino UNO, a Servo Motor, a 4×4 Matrix Keypad and a 16×2 LCD. The Arduino Uno is an open-source microcontroller board based on the Microchip ATmega328P microcontroller and developed by Arduino.cc. The board is equipped with sets of digital and analog input/output (I/O) pins that may be interfaced to various expansion boards (shields) and other circuits. The board has 14 digital I/O pins (six capable of PWM output), 6 analog I/O pins, and is programmable with the Arduino IDE (Integrated Development Environment), via a type B USB cable. It can be powered by the USB cable or by an external 9-volt battery, though it accepts voltages between 7 and 20 volts.
-
-
-
-Now the controller compares the entered password with predefined password. If the password is matched, then the microcontroller makes P0.0 HIGH and P0.1 LOW, so the motor driver gets the input signals for forward motion of the motor.
-
-As a result, the Door Motor rotates in forward direction to open the door. After a delay of 10seconds, the microcontroller makes P0.0 LOW and P0.1 HIGH, so the motor driver gets the input signals for reverse motion. As a result, the Door motor rotates in reverse direction to close the door.
-
-If the password is not matched, then microcontroller maintains both P0.0 and P0.1 LOW. Hence, the door motor is stationary so that door remains closed.
+How to Design Circuit of Password based Door Lock System? Password based door lock system using Arduino UNO circuit design uses five major components – an Arduino UNO, a Servo Motor, a 4×4 Matrix Keypad and a 16×2 LCD.
