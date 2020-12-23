@@ -1,4 +1,4 @@
-# Code For Password Verification
+Code For Password Verification
 #include <Keypad.h>
 #include <LiquidCrystal.h>
 #include <Servo.h>
@@ -407,7 +407,7 @@ lcd.clear();
 }
 
 
-# Code For Bluetooth Door Open Close System
+Code For Bluetooth Door Open Close System
 
 #include<SoftwareSerial.h>
 
